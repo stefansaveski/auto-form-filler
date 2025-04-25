@@ -50,7 +50,7 @@ def submit_form():
     driver = webdriver.Chrome(options=options)
 
     # Open the form
-    driver.get('https://docs.google.com/forms/d/e/1FAIpQLScuWQTqiCAioJItf2f0kgVrX9wQbbRPj0mxiFWLcwfApuqagg/viewform')
+    driver.get('https://docs.google.com/forms/YOUR_FORM_ID/')
     time.sleep(2)
 
     # === Page 1: Demographics ===
